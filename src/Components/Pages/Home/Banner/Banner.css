@@ -1,0 +1,19 @@
+
+.img{
+    background-image: url(../../../../assets/images/chair.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.img::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.871);
+    content: '';
+    z-index: -1;
+}
